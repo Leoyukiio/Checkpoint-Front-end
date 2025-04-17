@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
 html, body {
     margin: 0px;
@@ -18,7 +18,7 @@ nav{
     background-color: white;
     height: 197px;
 }
-nav .name {
+.name {
     font-family: Belleza;
     font-size: 50px;
     text-align: center;
@@ -28,7 +28,7 @@ nav .name {
     padding: 10px 0px 10px 0px;
 }
 
-nav .btn_nav ul{
+.btn_nav ul{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
@@ -36,7 +36,7 @@ nav .btn_nav ul{
     padding: 10px 0px 10px 0px;
 }
 
-nav .btn_nav li a {
+.btn_nav li a {
     display: inline-block;
     font-family: Belleza;
     font-size: 32px;
@@ -50,6 +50,56 @@ nav .btn_nav li a {
     color: #4B1030;
 }
 
-/*div {
-    border: 1px solid black;
-}*/ 
+.banner {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.banner a {
+    width: 100%;
+    height: 100%;
+}
+
+.banner img {
+    height: 730px;
+    width: 100%;
+}
+
+.destaque {
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.destaque_prod {
+    justify-content: space-evenly;
+    display: flex;
+    padding: 30px 0px 30px 0px;
+}
+
+.card {
+    background-color: #BFBFBF;
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    transition: transform 1.0 ease-in-out;
+    text-align: center;
+}
+
+.card img {
+    padding: 30px 0px 10px 0px;
+    height: 160px;
+    width: 130px;
+}
+
+.card h4, p {
+    font-family: 'Merriweather', serif;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: #A6A6A6;
+}
