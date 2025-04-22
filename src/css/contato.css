@@ -9,6 +9,10 @@ html, body {
   padding: 0px;
 }
 
+body {
+  background-image: url("../assets/img/fundo.jpg");
+}
+
 nav{
   margin: 0px;
   padding: 0px;
@@ -58,6 +62,55 @@ main {
   font-family: 'Merriweather', serif;
 }
 
-.container {
-  background-image: url("../assets/img/fundo.jpg");
+.title {
+  text-align: center;
+  padding: 40px;
+  font-size: 32px;
+}
+
+.contatos {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+
+.inf-contato {
+  width: 25%;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #A6A6A6;
+  border-radius: 30px;
+  padding: 50px;
+  margin: 0px 60px 0px 0px;
+}
+
+.inf-contato a {
+  text-decoration: none;
+  color: black;
+}
+
+.inf-item {
+  padding: 15px;
+}
+
+.contact-form {
+  width: 25%;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #A6A6A6;
+  border-radius: 30px;
+  padding: 50px;
+  margin: 0px 0px 0px 60px;
+}
+
+.form-group {
+  padding: 15px;
+} 
+
+.btn-contato {
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  height: 40px;
+  width: 150px;
 }
