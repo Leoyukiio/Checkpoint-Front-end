@@ -4,32 +4,35 @@
   box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
   margin: 0px;
   padding: 0px;
 }
 
-nav {
+nav{
   margin: 0px;
   padding: 0px;
   position: sticky;
   z-index: 5;
   top: 0px;
   background-color: white;
-  height: 197px;
+  height: 180px;
 }
-.name {
+.name{
   font-family: Belleza;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
-  color: #4b1030;
-  height: 137px;
-  border-bottom: 7px solid #4b1030;
+  height: 110px;
+  border-bottom: 7px solid #4B1030;
   padding: 10px 0px 10px 0px;
 }
 
-.btn_nav ul {
+.name a {
+  text-decoration: none;
+  color: #4B1030;
+}
+
+.btn_nav ul{
   display: flex;
   justify-content: space-evenly;
   list-style: none;
@@ -48,5 +51,13 @@ nav {
 
 .btn_nav li a:hover {
   transform: scale(1.1);
-  color: #4b1030;
+  color: #4B1030;
+}
+
+main {
+  font-family: 'Merriweather', serif;
+}
+
+.container {
+  background-image: url("../assets/img/fundo.jpg");
 }
