@@ -121,6 +121,12 @@ main {
     margin: 0 auto;
 }
 
-.img {
+.img-servico {
     text-align: center;
+    padding: 40px;
+}
+
+.img-servico img {
+    height: 200px;
+    width: 300px;
 }
