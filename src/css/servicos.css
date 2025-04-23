@@ -69,7 +69,58 @@ main {
 .servico-titulo {
     padding: 20px 0px 20px 0px;
 }
+.tabela-planos table {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 2px solid #4B1030;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(75, 16, 48, 0.1);
+}
 
-.titulo {
-    padding: 10px 0px 10px 0px 0px;
+.tabela-planos th,
+.tabela-planos td {
+    padding: 16px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #333;
+}
+
+.tabela-planos th {
+    background-color: #4B1030;
+    color: white;
+    font-weight: bold;
+}
+
+.tabela-planos tr:nth-child(even) td {
+    background-color: #fdf8f4;
+}
+
+.tabela-planos tr:hover td {
+    background-color: #f7ece9;
+    transition: background-color 0.3s ease;
+}
+
+.rodape-imagem {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.rodape-imagem img {
+    width: 500px;
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.img {
+    text-align: center;
 }
