@@ -19,6 +19,7 @@ nav {
   background-color: white;
   height: 180px;
 }
+
 .name {
   font-family: Belleza;
   font-size: 40px;
@@ -96,37 +97,34 @@ main p {
   text-align: justify;
 }
 
-.imagem-sobre {
-  flex-shrink: 0;
-  width: 400px;
-  height: 500px;
-  border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(75, 16, 48, 0.3);
-  overflow: hidden;
-  background-color: white;
-  padding: 10px;
-}
-
-.imagem-sobre img {
+.imagem-sobre video {
   width: 100%;
-  height: 100%;
+  height: auto;
+  max-height: 650px;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(75, 16, 48, 0.1);
+  border: 5px solid white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-@media (max-width: 768px) {
+.imagem-sobre video:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 30px rgba(75, 16, 48, 0.15);
+}
+
+
+@media (max-width: 992px) {
   main {
     flex-direction: column;
-    padding: 20px;
-  }
-
-  .imagem-sobre {
-    width: 100%;
-    height: 300px;
-    margin-top: 20px;
-  }
-
-  .conteudo-texto {
-    margin-right: 0;
+    padding: 30px;
   }
 }
+  .conteudo-texto {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  
+  .imagem-sobre video {
+    max-height: 500px;
+  }
