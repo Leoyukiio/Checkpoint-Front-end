@@ -9,10 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Belleza&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -33,42 +35,49 @@
     </header>
 
     <main>
-      <section class="login-container" aria-labelledby="login-title">
-        <h1 id="login-title">Bem-vindo de volta</h1>
-        <form class="login-form" action="#" method="POST">
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              required
-              aria-required="true"
-              placeholder="Digite seu email" />
-          </div>
-          <div class="form-group">
-            <label for="senha">Senha:</label>
-            <input
-              type="password"
-              id="senha"
-              name="senha"
-              required
-              aria-required="true"
-              placeholder="Digite sua senha" />
-          </div>
-          <div class="form-options">
-            <label class="remember-me">
-              <input type="checkbox" name="lembrar" id="lembrar" />
-              Lembrar de mim
-            </label>
-            <a href="#" class="forgot-password">Esqueceu a senha?</a>
-          </div>
-          <button type="submit" class="login-button">Entrar</button>
-        </form>
-        <p class="register-link">
-          Não tem uma conta? <a href="#">Cadastre-se</a>
-        </p>
-      </section>
+      <div class="login-container">
+        <div class="login-image"></div>
+        <div class="login-form-container">
+          <section class="login-form" aria-labelledby="login-title">
+            <h1 id="login-title">Bem-vindo de volta</h1>
+            <form action="#" method="POST">
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  aria-required="true"
+                  placeholder="Digite seu email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="senha">Senha:</label>
+                <input
+                  type="password"
+                  id="senha"
+                  name="senha"
+                  required
+                  aria-required="true"
+                  placeholder="Digite sua senha"
+                />
+              </div>
+              <div class="form-options">
+                <label class="remember-me">
+                  <input type="checkbox" name="lembrar" id="lembrar" />
+                  Lembrar de mim
+                </label>
+                <a href="#" class="forgot-password">Esqueceu a senha?</a>
+              </div>
+              <button type="submit" class="login-button">Entrar</button>
+            </form>
+            <p class="register-link">
+              Não tem uma conta? <a href="#">Cadastre-se</a>
+            </p>
+          </section>
+        </div>
+      </div>
     </main>
   </body>
 </html>
