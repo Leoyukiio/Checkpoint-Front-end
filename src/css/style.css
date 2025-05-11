@@ -94,11 +94,12 @@ hr {
 }
 
 .destaque {
-    font-family: 'Merriweather', serif;
+    font-family: 'Belleza', sans-serif;
     font-size: 32px;
     display: flex;
     justify-content: center;
     padding: 20px 0px 20px 0px;
+    color: #4B1030;
 }
 
 .destaque_prod {
@@ -112,7 +113,7 @@ hr {
     height: 300px;
     width: 250px;
     border-radius: 20px;
-    transition: transform 1.0 ease-in-out;
+    transition: transform 0.3 ease;
     text-align: center;
 }
 
@@ -122,11 +123,22 @@ hr {
     width: 130px;
 }
 
-.card h4, p {
+.card h3, p{
     font-family: 'Merriweather', serif;
+    color: black;
+    transition: color 0.3 ease;
 }
 
-.card:hover {
-    transform: scale(1.1);
+.card:hover p {
+    color: #4B1030;
+}
+
+.card:hover h3 {
+    color: #4B1030;
+}
+
+.card:hover{
+    transform: scale(1.05);
     background-color: #A6A6A6;
+    color: #4B1030;
 }
