@@ -27,8 +27,31 @@ nav{
   font-size: 40px;
   text-align: center;
   height: 110px;
-  border-bottom: 7px solid #4B1030;
   padding: 10px 0px 10px 0px;
+}
+
+hr {
+    height: 7px;
+    background: linear-gradient(to right, #ffffff 0%,
+    #dddddd 20%,
+    #bb6688 40%,
+    #4B1030 50%,
+    #bb6688 60%,
+    #dddddd 80%,
+    #ffffff 100%);
+    background-position: 0% 0%;
+    background-size: 200% 100%;
+    border: none;
+    animation: linha-roxa 5s ease-in-out infinite alternate;
+}
+
+@keyframes linha-roxa {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
 }
 
 .name a {
