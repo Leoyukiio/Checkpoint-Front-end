@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     margin: 0px;
     padding: 0px;
 }
 
-nav{
+nav {
     margin: 0px;
     padding: 0px;
     position: sticky;
@@ -18,7 +19,8 @@ nav{
     background-color: white;
     height: 180px;
 }
-.name{
+
+.name {
     font-family: Belleza;
     font-size: 40px;
     text-align: center;
@@ -29,12 +31,12 @@ nav{
 hr {
     height: 7px;
     background: linear-gradient(to right, #ffffff 0%,
-    #dddddd 20%,
-    #bb6688 40%,
-    #4B1030 50%,
-    #bb6688 60%,
-    #dddddd 80%,
-    #ffffff 100%);
+            #dddddd 20%,
+            #bb6688 40%,
+            #4B1030 50%,
+            #bb6688 60%,
+            #dddddd 80%,
+            #ffffff 100%);
     background-position: 0% 0%;
     background-size: 200% 100%;
     border: none;
@@ -45,6 +47,7 @@ hr {
     0% {
         background-position: 0% 0%;
     }
+
     100% {
         background-position: 100% 0%;
     }
@@ -55,7 +58,7 @@ hr {
     color: #4B1030;
 }
 
-.btn_nav ul{
+.btn_nav ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
@@ -81,15 +84,16 @@ main {
     font-family: 'Merriweather', serif;
 }
 
-.botao-contato, .telefone {
+.botao-contato,
+.telefone {
     text-decoration: none;
 }
 
 .servico-titulo {
     position: relative;
     padding: 60px 20px;
-    background: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), 
-                url('../assets/img/textura-papel-envelhecido.jpg') center/cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+        url('../assets/img/textura-papel-envelhecido.jpg') center/cover;
     margin-bottom: 40px;
     text-align: center;
     border-bottom: 1px solid #e8d5d0;
@@ -135,11 +139,12 @@ main {
     font-size: 1.5rem;
     opacity: 0.7;
 }
+
 .titulos p::first-letter {
     font-size: 35px;
-  font-weight: bold;
-  color: #4b1030;
-  font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #4b1030;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .tabela-planos h2 {
@@ -227,7 +232,7 @@ main {
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
