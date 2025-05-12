@@ -1,64 +1,64 @@
-# 🍷 Checkpoint Front-end - Vinharia Agnello
+🍷 Checkpoint Front-end - Vinharia Agnello
+👥 Integrantes
+Leonardo Yukio
 
-## 👥 Integrantes  
-- **Leonardo Yukio**  
-- **Paulo Rodrigues**
-- **Victor Pereira**
-- **Vinicius Gama Quina Silva**
+Paulo Rodrigues
 
----
+Victor Pereira
 
-## 📝 Descrição do Projeto  
+Vinicius Gama Quina Silva
 
-A **Vinheria Agnello** é uma tradicional empresa familiar com mais de 15 anos de atuação em São Paulo, especializada na venda de vinhos nacionais e importados por meio de uma única loja física.  
+📝 Descrição do Projeto
+A Vinheria Agnello é uma tradicional empresa familiar com mais de 15 anos de atuação em São Paulo, especializada na venda de vinhos nacionais e importados por meio de uma única loja física.
 
-Seu grande diferencial sempre foi o **atendimento personalizado**, oferecendo orientações sobre tipos de uvas, harmonizações e ocasiões especiais.
+Seu grande diferencial sempre foi o atendimento personalizado, oferecendo orientações sobre tipos de uvas, harmonizações e ocasiões especiais.
 
-Durante a pandemia, a vinheria enfrentou uma significativa queda nas vendas, principalmente por **não possuir um canal de vendas online**.  
+Durante a pandemia, a vinheria enfrentou uma significativa queda nas vendas, principalmente por não possuir um canal de vendas online.
 
-Apesar da resistência inicial ao e-commerce, o proprietário **Giulio**, incentivado por sua filha **Bianca**, decidiu investir em uma loja virtual com o objetivo de manter a qualidade e o atendimento próximo mesmo no ambiente digital.
+Apesar da resistência inicial ao e-commerce, o proprietário Giulio, incentivado por sua filha Bianca, decidiu investir em uma loja virtual com o objetivo de manter a qualidade e o atendimento próximo mesmo no ambiente digital.
 
----
+🎯 Objetivo do Projeto
+Criar uma plataforma de e-commerce que traduza a experiência única da loja física para o ambiente online, proporcionando:
 
-## 🎯 Objetivo do Projeto
+Navegação intuitiva
 
-Criar uma **plataforma de e-commerce** que traduza a experiência única da loja física para o ambiente online, proporcionando:
+Informações detalhadas sobre os produtos
 
-- Navegação intuitiva  
-- Informações detalhadas sobre os produtos  
-- Atendimento consultivo com toque humano  
+Atendimento consultivo com toque humano
 
----
+🛠️ Tecnologias Utilizadas
+HTML5
 
-## 🛠️ Tecnologias Utilizadas
+CSS3
 
-- HTML5  
-- CSS3  
-- JavaScript  
+JavaScript
 
+Recursos Front-end Adicionados
+Utilização de 3 pseudoclasses CSS, como :hover e :focus, aplicadas em botões e links para proporcionar interatividade e feedback visual ao usuário.
 
----
+Implementação de pelo menos 2 pseudoelementos CSS, como ::before e ::after, utilizados em elementos de destaque e títulos, agregando detalhes visuais e decorativos.
 
-## 📌 Metodologia
+Aplicação de animação com @keyframes, adicionando movimento suave embaixo da navbar.
 
-O desenvolvimento será guiado por uma abordagem **ágil (Scrum)**:
+Inclusão de transições CSS em elementos interativos, como botões e cards de produtos, proporcionando uma navegação mais fluida e moderna ao interagir com o site.
 
-- **Product Owner**: Bianca  
-- **Scrum Master**: Desenvolvedor Sênior  
-- **Time de Desenvolvimento**: Equipe de Front-end
+📌 Metodologia
+O desenvolvimento será guiado por uma abordagem ágil (Scrum):
 
----
+Product Owner: Bianca
 
-## 🧾 Sistema Atual
+Scrum Master: Desenvolvedor Sênior
 
-A empresa já utiliza um **ERP básico** para:
+Time de Desenvolvimento: Equipe de Front-end
 
-- Controle de estoque  
-- Vendas (PDV)  
-- Gestão financeira  
+🧾 Sistema Atual
+A empresa já utiliza um ERP básico para:
 
-O novo portal será integrado de forma gradual ao sistema atual, com foco inicial na **experiência do usuário**.
+Controle de estoque
 
----
+Vendas (PDV)
 
+Gestão financeira
+
+O novo portal será integrado de forma gradual ao sistema atual, com foco inicial na experiência do usuário.
 
