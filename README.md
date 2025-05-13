@@ -1,5 +1,6 @@
 🍷 Checkpoint Front-end - Vinharia Agnello
 👥 Integrantes
+
 Leonardo Yukio
 
 Paulo Rodrigues
