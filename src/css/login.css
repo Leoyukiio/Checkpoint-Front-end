@@ -28,27 +28,30 @@ nav {
 }
 
 hr {
-    height: 7px;
-    background: linear-gradient(to right, #ffffff 0%,
+  height: 7px;
+  background: linear-gradient(
+    to right,
+    #ffffff 0%,
     #dddddd 20%,
     #bb6688 40%,
-    #4B1030 50%,
+    #4b1030 50%,
     #bb6688 60%,
     #dddddd 80%,
-    #ffffff 100%);
-    background-position: 0% 0%;
-    background-size: 200% 100%;
-    border: none;
-    animation: linha-roxa 5s ease-in-out infinite alternate;
+    #ffffff 100%
+  );
+  background-position: 0% 0%;
+  background-size: 200% 100%;
+  border: none;
+  animation: linha-roxa 5s ease-in-out infinite alternate;
 }
 
 @keyframes linha-roxa {
-    0% {
-        background-position: 0% 0%;
-    }
-    100% {
-        background-position: 100% 0%;
-    }
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
 }
 
 .name a {
@@ -192,6 +195,12 @@ main {
 
 .login-button:hover {
   background-color: #7a1a4a;
+}
+
+.login-button:active {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
 
 .register-link {

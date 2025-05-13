@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0px;
   padding: 0px;
 }
@@ -13,7 +14,7 @@ body {
   background-image: url("../assets/img/fundo.jpg");
 }
 
-nav{
+nav {
   margin: 0px;
   padding: 0px;
   position: sticky;
@@ -22,7 +23,7 @@ nav{
   background-color: white;
   height: 180px;
 }
-.name{
+.name {
   font-family: Belleza;
   font-size: 40px;
   text-align: center;
@@ -31,35 +32,38 @@ nav{
 }
 
 hr {
-    height: 7px;
-    background: linear-gradient(to right, #ffffff 0%,
+  height: 7px;
+  background: linear-gradient(
+    to right,
+    #ffffff 0%,
     #dddddd 20%,
     #bb6688 40%,
-    #4B1030 50%,
+    #4b1030 50%,
     #bb6688 60%,
     #dddddd 80%,
-    #ffffff 100%);
-    background-position: 0% 0%;
-    background-size: 200% 100%;
-    border: none;
-    animation: linha-roxa 5s ease-in-out infinite alternate;
+    #ffffff 100%
+  );
+  background-position: 0% 0%;
+  background-size: 200% 100%;
+  border: none;
+  animation: linha-roxa 5s ease-in-out infinite alternate;
 }
 
 @keyframes linha-roxa {
-    0% {
-        background-position: 0% 0%;
-    }
-    100% {
-        background-position: 100% 0%;
-    }
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
 }
 
 .name a {
   text-decoration: none;
-  color: #4B1030;
+  color: #4b1030;
 }
 
-.btn_nav ul{
+.btn_nav ul {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
@@ -78,11 +82,11 @@ hr {
 
 .btn_nav li a:hover {
   transform: scale(1.1);
-  color: #4B1030;
+  color: #4b1030;
 }
 
 main {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 .container {
@@ -206,6 +210,12 @@ main {
 
 .btn-contato:hover {
   background-color: #7a1a4a;
+}
+
+.btn-contato:active {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
 
 /* Responsivo */
