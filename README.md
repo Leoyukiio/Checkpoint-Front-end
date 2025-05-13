@@ -34,7 +34,7 @@ CSS3
 JavaScript
 
 Recursos Front-end Adicionados
-Utilização de 3 pseudoclasses CSS, como :hover e :focus, aplicadas em botões e links para proporcionar interatividade e feedback visual ao usuário.
+Utilização de 3 pseudoclasses CSS, como :hover, :focus e :active, aplicadas em botões e links para proporcionar interatividade e feedback visual ao usuário.
 
 Implementação de pelo menos 2 pseudoelementos CSS, como ::before e ::after, utilizados em elementos de destaque e títulos, agregando detalhes visuais e decorativos.
 
